@@ -1,4 +1,5 @@
-Task 1 — Classify and Handle PII Fields
+# Task 1 — Classify and Handle PII Fields
+
 The dataset contains the following fields:
 
 full_name, email, date_of_birth, zip_code, job_title, diagnosis_notes
@@ -11,7 +12,7 @@ full_name, email: Direct PII - Drop these columns by default. Mask them only if 
 Date_of_birth, zip_code, job_title, diagnosis_notes: Indirect PII - Mask and pseudonymize these columns because they can indirectly identify individuals based on group characteristics, location, or behavioral patterns.
 
 
-Task 2 — Audit the API Script for Ethical Compliance
+# Task 2 — Audit the API Script for Ethical Compliance
 
 import requests
 
